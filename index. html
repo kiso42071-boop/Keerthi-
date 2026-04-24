@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sharp AI App</title>
+</head>
+<body>
+  <h1>Vanakkam da Sharp 🦁💙</h1>
+  <button onclick="pesu()">Enna amuku da</button>
+  <p id="badhil"></p>
+
+  <script>
+    function pesu() {
+      document.getElementById("badhil").innerText = "1AM aachu da loosu. Thoongu po 💙";
+    }
+  </script>
+</body>
+</html>
